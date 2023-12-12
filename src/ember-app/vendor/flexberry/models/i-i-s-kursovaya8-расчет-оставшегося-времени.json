@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISKursovaya8РасчетОставшегосяВремени",
+  "modelName": "i-i-s-kursovaya8-расчет-оставшегося-времени",
+  "className": "РасчетОставшегосяВремени",
+  "nameSpace": "IIS.Kursovaya8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "доступно",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "использовано",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расторжениеДоговора",
+      "relatedTo": "i-i-s-kursovaya8-расторжение-договора",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "оказаниеКонсультаций",
+      "relatedTo": "i-i-s-kursovaya8-оказание-консультаций",
+      "inverse": "расчетОставшегосяВремени"
+    }
+  ],
+  "projections": [
+    {
+      "name": "РасчетОставшегосяВремениE",
+      "modelName": "i-i-s-kursovaya8-расчет-оставшегося-времени",
+      "attrs": [
+        {
+          "name": "использовано",
+          "caption": "Использовано",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "доступно",
+          "caption": "Доступно",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РасчетОставшегосяВремениL",
+      "modelName": "i-i-s-kursovaya8-расчет-оставшегося-времени",
+      "attrs": [
+        {
+          "name": "использовано",
+          "caption": "Использовано",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "доступно",
+          "caption": "Доступно",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

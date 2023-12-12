@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Kursovaya8",
+  "applicationTitle": "Kursovaya8",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kursovaya8",
+      "caption": "Kursovaya8",
+      "title": "Kursovaya8",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya8-директор-отдела-по-работе-с-клиентами-l",
+          "menuName": null,
+          "caption": "Директор отдела по работе с клиентами",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya8-расторжение-договора-l",
+          "menuName": null,
+          "caption": "Расторжение договора",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya8-заключение-договора-l",
+          "menuName": null,
+          "caption": "Заключение договора",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya8-расчет-оставшегося-времени-l",
+          "menuName": null,
+          "caption": "Расчет оставшегося времени",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya8-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

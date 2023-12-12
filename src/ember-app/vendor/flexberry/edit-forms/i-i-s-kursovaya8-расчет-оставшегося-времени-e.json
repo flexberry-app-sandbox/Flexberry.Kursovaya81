@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Расчет оставшегося времени",
+  "name": "IISKursovaya8РасчетОставшегосяВремениE",
+  "className": "РасчетОставшегосяВремениE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya8-расчет-оставшегося-времени",
+      "modelProjection": "РасчетОставшегосяВремениE"
+    }
+  ]
+}

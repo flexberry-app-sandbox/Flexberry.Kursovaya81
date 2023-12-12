@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya8-расчет-оставшегося-времени-e",
+  "editForm": "i-i-s-kursovaya8-расчет-оставшегося-времени-e",
+  "external": false,
+  "caption": "Расчет оставшегося времени",
+  "name": "IISKursovaya8РасчетОставшегосяВремениL",
+  "className": "РасчетОставшегосяВремениL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya8-расчет-оставшегося-времени",
+      "modelProjection": "РасчетОставшегосяВремениL"
+    }
+  ]
+}

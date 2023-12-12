@@ -1,0 +1,4 @@
+import IISKursovaya8РасчетОставшегосяВремениEController from '../i-i-s-kursovaya8-расчет-оставшегося-времени-e';
+
+var IISKursovaya8РасчетОставшегосяВремениENewController = IISKursovaya8РасчетОставшегосяВремениEController;
+export default IISKursovaya8РасчетОставшегосяВремениENewController;
